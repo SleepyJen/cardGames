@@ -20,6 +20,11 @@ const UserSchema = new Schema({
     players: {
         type: [],
         default: []
+    },
+
+    cards: {
+        type: [],
+        default: []
     }
 });
 
